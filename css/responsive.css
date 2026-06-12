@@ -1,0 +1,57 @@
+@media(max-width:950px){
+
+  .hero-content,
+  .why-grid,
+  .footer-grid{
+
+    grid-template-columns:1fr;
+
+  }
+
+  .hero-text{
+
+    text-align:center;
+
+  }
+
+  .hero-buttons{
+
+    justify-content:center;
+
+  }
+
+  nav{
+
+    display:none;
+
+  }
+
+  .hero-text h1{
+
+    font-size:3rem;
+
+  }
+
+}
+
+@media(max-width:600px){
+
+  .hero-text h1{
+
+    font-size:2.4rem;
+
+  }
+
+  .section-title h2{
+
+    font-size:2rem;
+
+  }
+
+  .cta-box{
+
+    padding:50px 25px;
+
+  }
+
+}
